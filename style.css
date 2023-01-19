@@ -1,0 +1,160 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav */
+
+.navbar-brand {
+    font-size: 25px;
+    color: black;
+}
+
+.navbar-nav .nav-item a {
+    color: black;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: rgb(79, 76, 76);
+}
+
+
+/* Main */
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+
+}
+
+.carousel-caption {
+    bottom: 70px;
+    z-index: 2;
+
+}
+
+.carousel-caption h1 {
+    font-size: 45px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.cus-btn {
+    font-size: 20px;
+
+}
+.w-100{
+    height: 100vh;
+}
+/* Row section */
+.gift{
+    
+    position: relative;
+    top: -150px;
+    left: 900px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 250px;
+    
+}
+
+/* btn */
+.cos-btn{
+    background: #faebf5;
+    border-radius: 50px;
+    color:  #3F87F5;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media QR */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 15px;
+    
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+
+    .carousel-item {
+        height: auto;
+
+
+    
+    }
+
+    .carousel-caption {
+        bottom: 70px;
+        color: rgb(255, 255, 255);
+    }
+    .carousel-caption h1{
+     
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    .gift{
+    
+        position: relative;
+        top: 30px;
+        left: -50px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: auto;
+        
+    }
+    
+    
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
